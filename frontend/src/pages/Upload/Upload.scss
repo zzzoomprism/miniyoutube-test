@@ -1,0 +1,36 @@
+.upload-page {
+  width: 100%;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title-box {
+    text-align: center;
+  }
+
+  &__desc {
+    margin-top: 20px !important;
+    font-weight: 100 !important;
+  }
+
+  &__upload-container {
+    margin-top: 20px !important;
+  }
+
+  .svg-icon {
+    width: 40px;
+    height: 40px;
+    float: right;
+    color: #888;
+    margin-top: -20px;
+    transform: rotate(-90deg);
+  }
+
+  &__form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
