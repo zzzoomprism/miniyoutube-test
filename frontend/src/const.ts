@@ -18,5 +18,5 @@ export const C = {
     },
   },
 
-  PUBLIC_DIR: 'http://localhost:5000/public/'
+  PUBLIC_DIR: 'http://localhost:5000/public/',
 };

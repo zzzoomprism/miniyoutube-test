@@ -39,9 +39,7 @@ const theme: ThemeOptions = {
       fontSize: 15,
     },
     fontSize: 14,
-    fontFamily: [
-      'Poppins',
-    ].join(','),
+    fontFamily: ['Poppins'].join(','),
   },
 };
 

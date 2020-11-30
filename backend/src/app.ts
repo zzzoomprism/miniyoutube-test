@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 app.use(express.json());
 app.use(cors());
 app.use(fileUpload());
@@ -18,7 +18,7 @@ app.use(router);
 
 const port = process.env.PORT || 3000;
 
-app.use("/public", express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 server.listen(port);
 

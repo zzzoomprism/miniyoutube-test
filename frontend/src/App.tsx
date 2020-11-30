@@ -8,7 +8,7 @@ const App = () => {
   const AppRoute = () => {
     return (
       <Switch>
-         <Routes />
+        <Routes />
       </Switch>
     );
   };

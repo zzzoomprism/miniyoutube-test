@@ -10,10 +10,10 @@ import Button from '@material-ui/core/Button';
 import { NavLink } from 'react-router-dom';
 import Icon from '../../components/Icon';
 import { C } from '../../const';
-import block from "bem-cn-lite"
-const b = block( "home-page" );
+import block from 'bem-cn-lite';
+const b = block('home-page');
 
-import "./Home.scss"
+import './Home.scss';
 
 type PropType = {
   videoData: Array<VideoData[]> | null;
@@ -33,8 +33,7 @@ const Home: React.FC<PropType> = memo(({ videoData, dataCount }) => {
     <div className={b()}>
       <div style={{ flex: '1 1 auto' }}>
         {!videoData ? (
-          <Box
-            className={b("nodata-box")} >
+          <Box className={b('nodata-box')}>
             <Typography variant="h2">There are no videos yet</Typography>
             <Typography variant="body1">
               You can upload any video that you want by click the button
