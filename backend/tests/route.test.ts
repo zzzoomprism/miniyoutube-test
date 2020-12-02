@@ -1,16 +1,12 @@
-import chai from "chai";
-import chaiHttp from "chai-http";
-import server from "../src/app";
+import chai from 'chai';
+import chaiHttp from 'chai-http';
+import server from '../src/app';
 
 const chaiFiles = require('chai-files');
 
 chai.should();
 chai.use(chaiHttp);
 chai.use(chaiFiles);
-
-let expect = chai.expect;
-let file = chaiFiles.file;
-let dir = chaiFiles.dir;
 
 describe('Test routes of application', () => {
 
